@@ -1,0 +1,41 @@
+.background{
+width: 100%;
+height: 100%;
+position: absolute;
+padding:0;
+margin:0;
+left: 0px;
+top: 0px;
+z-index: -1000;
+overflow: hidden;
+filter: brightness(0.4);
+object-fit: fill;
+}
+.imagetest{
+   height:100vh;
+   float: right;
+   filter: saturate(0);
+}
+.imagetest:hover{
+  filter:saturate(0.8);
+  transition: 1s;
+}
+
+.navigationbar{
+  position: fixed;
+  z-index: -100;
+}
+ul li{
+  list-style-type: none;
+  display: inline;
+}
+li{
+  margin: 40px;
+  color: white;
+  float: right;
+  font-size: 1.3rem;
+}
+li:hover{
+  font-size: 2rem;
+  transition: 2s;
+}
